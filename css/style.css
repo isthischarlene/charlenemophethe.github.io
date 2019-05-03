@@ -1,0 +1,431 @@
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background-white-2.png);
+}
+
+/*---------- NAVIGATION BAR ----------*/
+
+nav {
+    width: 65%;
+    height: 10px;
+    line-height: 10px;
+    position: absolute;
+    top: 2rem;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+/*---------- NAVIGATION BAR ----------*/
+
+nav ul {
+    list-style: none;
+    float: left;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 2.5rem;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    padding-bottom: -5rem;
+    transform: translateY(-3px);
+}
+
+.nav-bar span {
+    display: inline;
+    line-height: 20px; 
+    font-size: 17px;
+    height: 20px;
+}
+
+.nav-bar span:hover {
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(63, 63, 100);
+}
+
+/*---------- NAVIGATION BAR CURRENT PAGE LINK ----------*/
+.current-page {
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bold;
+    color:  rgb(216, 108, 108);
+}
+
+/*---------- LANDING PAGE TEXT ----------*/
+
+.text-box{
+    position: absolute;
+    top: 55%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    text-align: left;
+}
+
+.primary-heading{
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 2rem;
+}
+
+/*---------- LANDING PAGE HEADINGS ----------*/
+.heading-main{
+    display: block;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+    margin-right: -3.5rem;
+    animation: moveLeft 1s ease-in;
+    color: black;
+}
+
+.heading-sub{
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    margin-top: 1rem;
+    margin-right: -1.75rem;
+    animation: moveLeft 1.5s ease-in;
+    color: black;
+}
+
+/*---------- LANDING PAGE IMAGE ----------*/
+
+.background-img {
+    background-image: url(images/Untitled.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-color: rgb(216, 108, 108);
+    opacity: 0.99;
+    margin-top: 120px;
+    margin-right: 5%;
+    margin-left: 10px;
+    float: right;
+    height: 500px;
+    width: 350px;
+    animation: moveRight 1s ease-in;
+}
+
+/*---------- LANDING PAGE BUTTONS ----------*/
+.btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 0px;
+    padding: 0.5rem 3rem;
+    display: inline-block;
+    font-size: 1rem;
+    border: none;
+    background-color:  rgb(216, 108, 108);
+    color: #000;
+    animation: moveLeft 2s ease-in;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text-box a {
+    color: black;
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+}
+
+/*---------- ABOUT PAGE ----------*/
+
+.about-text-box{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    text-align: left;
+}
+
+.about-heading{
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 2rem;
+}
+
+/*---------- ABOUT PAGE HEADINGS ----------*/
+
+.about-main{
+    display: block;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+    margin-right: -3.5rem;
+    animation: moveLeft 1s ease-in;
+}
+
+.about-sub{
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    margin-top: 1rem;
+    margin-right: -1.75rem;
+    animation: moveLeft 1.5s ease-in;
+}
+
+.about-introduction {
+    margin-top: 180px;
+    float: right;
+    height: 500px;
+    width: 450px;
+    margin-right: 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: moveRight 1s ease-in;
+}
+
+.about-skills {
+    margin-top: 30px;
+}
+.about-introduction a {
+    text-decoration: none;
+    color: rgb(216, 108, 108);
+    font-style: bold;
+}
+
+
+.about-introduction h3 {
+    padding-top: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*---------- ABOUT PAGE ICONS ----------*/
+
+.social-icon {
+    height: 40px;
+    width: 40px;
+}
+
+.skills-icon {
+    height: 60px;
+    width: 60px;
+}
+
+.skills-icon2 {
+    height: 60px;
+    width: 90px;
+}
+/*---------- PORTFOLIO PAGE ----------*/
+
+.portfolio-text-box{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    text-align: left;
+}
+
+.portfolio-heading{
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 2rem;
+}
+
+/*---------- PORTFOLIO HEADINGS ----------*/
+.portfolio-main{
+    display: block;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+    margin-right: -3.5rem;
+    animation: moveLeft 1s ease-in;
+}
+
+.portfolio-sub{
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    margin-top: 1rem;
+    margin-right: -1.75rem;
+    animation: moveLeft 1.25s ease-in;
+}
+
+/*---------- PORTFOLIO CARDS ----------*/
+.portfolio-introduction {
+    margin-top: 120px;
+    margin-left: 150px;
+    float: right;
+    height: 1000px;
+    width: 700px;
+    margin-right: 13%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.portfolio-block {
+    margin-top: 0;
+    margin-left: 150px;
+    background-color: whitesmoke;
+}
+
+.portfolio-block h3 {
+    padding-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.portfolio-block p {
+    text-align: center;
+    font-size: 14.5px;
+ }
+
+ .portfolio-image {
+    margin-left: 45px;
+}
+
+/*---------- PORTFOLIO CARD ANIMATION ----------*/
+
+.port-one {
+    animation: moveRight 1.5s ease-in;
+}
+
+.port-two {
+    animation: moveRight 2s ease-in;
+}
+
+.port-three {
+    animation: moveRight 2.5s ease-in;
+}
+
+/*---------- PORTFOLIO PAGE BUTTONS ----------*/
+
+.portfolio-block .port-btn {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    border: 2px solid black;
+}
+  
+.port-btn p {
+    text-align: center;
+    width: 20px;
+  }
+  
+.port-btn:hover {
+    background-color: rgb(216, 108, 108);
+    color: white;
+    border: 2px solid rgb(216, 108, 108);
+  }
+
+/*---------- CONTACT PAGE ----------*/
+
+.contact-text-box{
+    position: absolute;
+    top: 55%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    text-align: left;
+}
+
+.contact-heading{
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 2rem;
+}
+
+/*---------- CONTACT PAGE HEADINGS ----------*/
+.contact-main{
+    display: block;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+    margin-right: -3.5rem;
+    animation: moveLeft 1s ease-in;
+}
+
+.contact-sub{
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    margin-top: 1rem;
+    margin-right: -1.75rem;
+    animation: moveLeft 1.25s ease-in;
+}
+
+/*---------- CONTACT PAGE INFORMATION ----------*/
+.contact-introduction {
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 230px;
+    float: right;
+    height: 210px;
+    width: 450px;
+    margin-right: 17%;
+    background-color: whitesmoke;
+    line-height: 15px;
+    padding-top: 25px;
+    animation: moveRight 1s ease-in;
+}
+
+.contact-introduction a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-introduction p {
+    line-height: 0;
+    font-size: 17px;
+}
+
+/*---------- CONTACT PAGE ICONS ----------*/
+
+.contact-icon {
+    height: 40px;
+    width: 40px;
+    margin-top: -2px;
+}
+
+/*---------- ALL PAGE ANIMATIONS ----------*/
+
+@keyframes moveLeft {
+    0% {
+        opacity: 1;
+        transform: translateX(-10rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveRight {
+    0% {
+        opacity: 1;
+        transform: translateX(10rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
