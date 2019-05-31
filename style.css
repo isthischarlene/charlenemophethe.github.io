@@ -239,8 +239,8 @@ nav ul li a {
 
 .box {
     position: relative;
-    width: 400px;
-    height: 300px;
+    width: 380px;
+    height: 280px;
     background: #000;
     box-shadow: 0 30px 30px rgba(0,0,0,.5);
 }
@@ -302,7 +302,7 @@ nav ul li a {
     transition: 0.5s;
     text-align: justify; 
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .box:hover .content p {
@@ -314,13 +314,13 @@ nav ul li a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-column-gap: 5px;
+    grid-column-gap: 1px;
     grid-row-gap: 10px;
 }
 
 .item {
-    background: rgb(216, 108, 108);
-    margin-left: 28px;
+    background: white;
+    margin-left: 35px;
     margin-right: 20px;
     margin-bottom: 15px;
 }
@@ -345,7 +345,7 @@ nav ul li a {
 /*---------- PORTFOLIO SKILLS SECTION  ----------*/
 
 .port-skills {
-    margin-right: 50px;
+    margin-right: 20px;
     margin-left: 20px;
     margin-top: 60px;
     width: 1200px;
@@ -433,13 +433,15 @@ nav ul li a {
 }
 
 .social-icon {
-    height: 45px;
-    width: 45px;
+    height: 35px;
+    width: 35px;
+    padding-bottom: 0;
 }
 
 .social-icon-1 {
     height: 35px;
     width: 50px;
+    padding-bottom: 0;
 }
 
 /*///////////////////// MEDIA QUERIES ///////////////////////*/
@@ -666,6 +668,55 @@ nav ul li a {
   color: rgb(111, 171, 172);;
 }
 
+
+/*---------- ABOUT PAGE CONTENT ----------
+
+.aside-1{
+    animation: moveUp 1.5s ease-in;
+}
+
+.aside-2 {
+    animation: moveRight 0.5s ease-in;
+}
+
+.aside-2 h2 {
+    animation: moveRight 1s ease-in;
+}*/
+
+/*---------- PORTFOLIO PAGE CARDS ----------*/
+
+.item1 {
+    animation: moveUp 0.25s ease-in;
+}
+
+.item2 {
+    animation: moveUp 0.5s ease-in;
+}
+
+.item3 {
+    animation: moveUp 0.75s ease-in;
+}
+
+.item4 {
+    animation: moveUp 1s ease-in;
+}
+
+.item5 {
+    animation: moveUp 1.25s ease-in;
+}
+
+.item6 {
+    animation: moveUp 1.5s ease-in;
+}
+
+/*---------- CONTACT PAGE ----------
+
+.contact-background {
+    animation: moveUp 0.25s ease-in;
+}*/
+
+
+
  /*======= ANIMATION AND EFFECTS =======*/
  @keyframes moveLeft {
     0% {
@@ -682,6 +733,17 @@ nav ul li a {
     0% {
         opacity: 1;
         transform: translateY(10rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+} 
+
+@keyframes moveRight {
+    0% {
+        opacity: 1;
+        transform: translateX(10rem);
     }
     100%{
         opacity: 1;
