@@ -313,7 +313,7 @@ nav ul li a {
 .port-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-column-gap: 1px;
     grid-row-gap: 10px;
 }
@@ -707,6 +707,18 @@ nav ul li a {
 
 .item6 {
     animation: moveUp 1.5s ease-in;
+}
+
+.item7 {
+    animation: moveUp 1.75s ease-in;
+}
+
+.item8 {
+    animation: moveUp 2s ease-in;
+}
+
+.item9 {
+    animation: moveUp 2.5s ease-in;
 }
 
 /*---------- CONTACT PAGE ----------
