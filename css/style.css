@@ -27,7 +27,6 @@ body {
     margin-bottom: 30px;
 }
 
-
 /*================== NAVIGATION BAR =================*/
 nav {
     padding: 8px;
@@ -236,7 +235,6 @@ nav ul li a {
 
 /*================== PORTFOLIO PAGE  =================*/
 
-/*================== ORIGINAL PORTFOLIO CARD =================*/
 .gallery-container {
     display: grid;
     grid-gap: 1.5em;
@@ -255,7 +253,7 @@ nav ul li a {
 }
 
 .item-1 {
-    background-image: url('../images/recipe-1.jpg');
+    background-image: url('../images/recipe-2.jpg');
 }
 
 .item-2 {
@@ -349,14 +347,6 @@ nav ul li a {
 
 /*================== CONTACT PAGE HEADER =================*/
 
-#contact-header {
-    font-size: 80px;
-    font-family: 'Londrina Shadow', cursive;
-    text-align: center;
-    margin-top: 130px;
-    margin-bottom: 30px;
-}
-
 .contact-background {
     margin-top: 50px;
     margin-right: 30px;
@@ -389,10 +379,6 @@ nav ul li a {
     font-weight: bold;
     color: rgb(216, 108, 108);
   }
-
-/*================== FOOTER =================*/
-
-
 
 
 /*================== LOGOS AND ICONS =================*/
