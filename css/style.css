@@ -170,42 +170,22 @@ nav ul li a {
 
 /*================== ABOUT PAGE =================*/
 
-/*---- ABOUT PAGE HEADINGS ----*/
-#about-header {
-    font-size: 90px;
-    font-family: 'Londrina Shadow', cursive;
-    text-align: center;
-    margin-top: 80px;
-    margin-bottom: 30px;
-}
-
-/*---- ABOUT PAGE MAIN CONTENT ----*/
-
 .wrapper {
     display: flex;  
     flex-flow: row wrap;
     text-align: center;
-    margin-left: 30px;
-    margin-right: 40px;
-    width: 90%;
+    margin: auto;
+    width: 85%;
+
 }
 
 .wrapper > * {
     padding: 10px;
     flex: 1 100%;
 }
-  
-.aside-1 {
-    width: 300px;
-    height: 550px;
-    text-align: right;
-    padding-right: 50px;
-    padding-top: 20px;
-    background: white;
 
-}
 .aside-2 {
-    width: 60%;
+    width: 100%;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
 }
@@ -214,11 +194,20 @@ nav ul li a {
     font-family: 'Londrina Shadow', cursive;
     font-size: 50px;
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.aside-2 h3 {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .aside-2 p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .aside-2 a {
@@ -233,6 +222,13 @@ nav ul li a {
     font-size: 20px;
   }
 
+#about-image {
+    width: 85%;
+}
+
+.skills-image {
+    width: 90%;
+}
 /*================== PORTFOLIO PAGE  =================*/
 
 .gallery-container {
@@ -382,18 +378,6 @@ nav ul li a {
 
 
 /*================== LOGOS AND ICONS =================*/
-
-.skills-icon {
-    height: 80px;
-    width: 80px;
-    margin-left: 40px;
-}
-
-.skills-icon2 {
-    height: 80px;
-    width: 110px;
-    margin-left: 30px;
-}
 
 .social-icon {
     height: 35px;
