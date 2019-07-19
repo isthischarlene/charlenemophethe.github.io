@@ -17,6 +17,17 @@ body {
     background: white;
 }
 
+/*================== HEADINGS ==================*/
+
+.heading {
+    font-size: 90px;
+    font-family: 'Londrina Shadow', cursive;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+
 /*================== NAVIGATION BAR =================*/
 nav {
     padding: 8px;
@@ -225,149 +236,115 @@ nav ul li a {
 
 /*================== PORTFOLIO PAGE  =================*/
 
-/*---------- PORTFOLIO HEADINGS ----------*/
-#port-header {
-    font-size: 80px;
-    font-family: 'Londrina Shadow', cursive;
-    text-align: center;
-    margin-top: 130px;
-    margin-bottom: 70px;
-}
-
-
-/*---------- PORTFOLIO CARDS  ----------*/
-
-.box {
-    position: relative;
-    width: 380px;
-    height: 280px;
-    background: #000;
-    box-shadow: 0 30px 30px rgba(0,0,0,.5);
-}
-
-.box .imgBx {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.box .imgBx img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: 0.5s;
-}
-
-.box:hover .imgBx img {
-    opacity: 0;
-}
-
-.box .content {
-    position: absolute;
-    bottom: 20px;
-    left: 10%;
-    width: 80%;
-    height: 60px;
-    background: rgb(253, 253, 253);
-    transition: 0.5s;
-    overflow: hidden;
-    padding: 15px;
-    box-sizing: border-box;
-}
-
-.box:hover .content{
-    width: 100%;
-    height: 100%;
-    bottom: 0;
-    left: 0;
-}
-
-.box .content h3 {
-    margin: 0;
-    padding: 0;
-    font-size: 30px;
-    font-family: 'Londrina Solid', cursive;
-}
-
-.box .content p {
-    margin: 10px 0 0;
-    padding: 0;
-    opacity: 0;
-    line-height: 1.2em;
-    transition: 0.5s;
-    text-align: justify; 
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-}
-
-.box:hover .content p {
-    opacity: 1;
-    transition-delay: 0.5s;
-}
-
-.port-container {
+/*================== ORIGINAL PORTFOLIO CARD =================*/
+.gallery-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-column-gap: 1px;
-    grid-row-gap: 10px;
+    grid-gap: 1.5em;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    grid-template-rows: repeat(2, 350px); 
+    grid-auto-rows: 350px;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+    padding-bottom: 2em;
 }
 
 .item {
-    background: white;
-    margin-left: 35px;
-    margin-right: 20px;
-    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item-1 {
+    background-image: url('../images/recipe-1.jpg');
+}
+
+.item-2 {
+    background-image: url('../images/javascript-2.jpg');
+}
+
+.item-3 {
+    background-image: url('../images/php-2.jpg');
+}
+
+.item-4 {
+    background-image: url('../images/todo-2.jpg');
+}
+
+.item-5 {
+    background-image: url('../images/booking-2.jpg');
+}
+
+.item-6 {
+    background-image: url('../images/login-2.jpg');
+}
+
+.solid-2-container {
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+
+.solid-2-container .image {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+.solid-2-container .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(167, 53, 78);
+}
+
+.solid-2-container:hover .overlay {
+  opacity: 1;
+}
+
+.solid-2-container .text {
+  color: white;
+  font-family: 'Londrina Solid', cursive;
+  font-weight: 100;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card-header {
+    color: rgb(216, 108, 108);
+    font-weight: bold;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 .port-btn {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-family: 'Londrina Solid', cursive;
-    font-size: 24px;
-    cursor: pointer;
-    text-transform: uppercase;
-    margin-top: 50px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: 'Londrina Solid', cursive;
+  font-size: 1.5em;
+  cursor: pointer;
+  text-transform: uppercase;
 }
 
 .port-btn:hover {
-    font-weight: bold;
-    color: rgb(216, 108, 108);
-    font-size: 17x;
-  }
-
-/*---------- PORTFOLIO SKILLS SECTION  ----------*/
-
-.port-skills {
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 60px;
-    width: 1200px;
-}
-
-.port-skills ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    height: 100px;
-}
-
-.port-skills ul li img {
-    float: right;
-    margin-right: 50px;
-    
-}
-
-.port-skills h2 {
-    font-family: 'Londrina Shadow', cursive;
-    font-size: 45px;
-    text-align: center;
+  font-weight: bold;
+  color: rgb(216, 108, 108);
+  font-size: 1.5em;
 }
 
 /*================== CONTACT PAGE HEADER =================*/
