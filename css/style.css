@@ -615,67 +615,6 @@ nav ul li a {
   color: rgb(111, 171, 172);;
 }
 
-
-/*---------- ABOUT PAGE CONTENT ----------
-
-.aside-1{
-    animation: moveUp 1.5s ease-in;
-}
-
-.aside-2 {
-    animation: moveRight 0.5s ease-in;
-}
-
-.aside-2 h2 {
-    animation: moveRight 1s ease-in;
-}*/
-
-/*---------- PORTFOLIO PAGE CARDS ----------*/
-
-.item1 {
-    animation: moveUp 0.25s ease-in;
-}
-
-.item2 {
-    animation: moveUp 0.5s ease-in;
-}
-
-.item3 {
-    animation: moveUp 0.75s ease-in;
-}
-
-.item4 {
-    animation: moveUp 1s ease-in;
-}
-
-.item5 {
-    animation: moveUp 1.25s ease-in;
-}
-
-.item6 {
-    animation: moveUp 1.5s ease-in;
-}
-
-.item7 {
-    animation: moveUp 1.75s ease-in;
-}
-
-.item8 {
-    animation: moveUp 2s ease-in;
-}
-
-.item9 {
-    animation: moveUp 2.5s ease-in;
-}
-
-/*---------- CONTACT PAGE ----------
-
-.contact-background {
-    animation: moveUp 0.25s ease-in;
-}*/
-
-
-
  /*======= ANIMATION AND EFFECTS =======*/
  @keyframes moveLeft {
     0% {
